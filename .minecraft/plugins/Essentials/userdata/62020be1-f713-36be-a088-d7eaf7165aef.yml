@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1732521604630
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1732594483045
+  login: 1732593767712
+money: '0'
+last-account-name: Terbang
+logoutlocation:
+  world: 647702cc-8bc0-46e2-9507-20b26f781228
+  world-name: void
+  x: -70.69736465742609
+  y: 106.0
+  z: 16.80581584437955
+  yaw: 140.8565673828125
+  pitch: 42.299991607666016
+lastlocation:
+  world: 647702cc-8bc0-46e2-9507-20b26f781228
+  world-name: void
+  x: -62.84860741539057
+  y: 77.0625
+  z: 37.47293876731006
+  yaw: 59.695404052734375
+  pitch: 34.19990921020508

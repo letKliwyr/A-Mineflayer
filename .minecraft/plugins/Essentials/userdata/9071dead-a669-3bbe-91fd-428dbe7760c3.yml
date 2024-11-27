@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1732527380050
+  login: 1732527290108
+money: '0'
+last-account-name: zonejone
+lastlocation:
+  world: d358f329-04df-4aca-b471-515d339cf17e
+  world-name: world
+  x: 0.0
+  y: 73.0
+  z: -32.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 647702cc-8bc0-46e2-9507-20b26f781228
+  world-name: void
+  x: -72.54944997220358
+  y: 106.1212968405392
+  z: 16.22125231306976
+  yaw: -101.98416137695312
+  pitch: 18.750497817993164

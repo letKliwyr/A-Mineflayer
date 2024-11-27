@@ -1,0 +1,34 @@
+[2024/11/25 17:46:56]: §9          __             _       
+[2024/11/25 17:46:56]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/11/25 17:46:56]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/11/25 17:46:56]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/11/25 17:46:56]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/11/25 17:46:56]: §9                  |___/            
+[2024/11/25 17:46:56]: §9 By: www.nickuc.com - V 10.4.17 DEVELOPMENT
+[2024/11/25 17:46:56]: §9 
+[2024/11/25 17:46:56]: §3[nLogin] [DEBUG] All settings were loaded in 139 ms.
+[2024/11/25 17:46:56]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/11/25 17:46:56]: §3[nLogin] [DEBUG] All plugin messages were loaded in 75 ms (languageByClient=false).
+[2024/11/25 17:46:56]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2024/11/25 17:46:56]: §3[nLogin] [DEBUG] Loading database...
+[2024/11/25 17:46:56]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/11/25 17:47:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Terbang', `unique_id` = 62020be1f71336bea088d7eaf7165aef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$sS03KFm3svw2WWLhAgN2COKkeYvYB9bT3./zXuvbjla0pUvP7rRTi', `last_ip` = '127.0.0.1', `creation_date` = 2024-11-25 16:19:14.54, `last_seen` = 2024-11-25 17:47:38.783, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/11/25 17:47:38]: [nLogin] The user Terbang has successfully logged in.
+[2024/11/25 17:50:00]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:50:06]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:50:12]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:50:19]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:50:26]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:50:32]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:55:08]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:55:15]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 17:55:21]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 18:19:18]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 18:19:25]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 18:19:31]: §3[nLogin] [DEBUG] The iloveher (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2024/11/25 18:19:43]: §3[nLogin] [DEBUG] [SQLite] [UNREGISTER]: Removing the iloveher's account...
+[2024/11/25 18:19:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'iloveher', `unique_id` = a2d48c14322434508378a2b784910c53,  `mojang_id` = null,  `bedrock_id` = null,  `password` = null, `last_ip` = null, `creation_date` = 1970-01-01 07:30:00.0, `last_seen` = 1970-01-01 07:30:00.0, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 2" (applied to all columns)
+[2024/11/25 18:19:44]: §3[nLogin] [DEBUG] The iloveher player had his account unregistered by CONSOLE.
+[2024/11/25 18:20:05]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'iloveher', `unique_id` = a2d48c14322434508378a2b784910c53,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$sk7y7./4LErYuKaoOrgjOukuXIBNBhPWMj62YKXtef8hVHNns5pOm', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2024-11-25 18:20:04.902, `last_seen` = 2024-11-25 18:20:04.902, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}' WHERE `ai` = 2" (applied to all columns)
+[2024/11/25 18:20:05]: [nLogin] The user iloveher has successfully registered.
+[2024/11/25 18:20:15]: [nLogin] Successful plugin core shutdown (took 0.00s)

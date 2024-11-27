@@ -1,0 +1,271 @@
+[11:57:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:57:03] [ServerMain/INFO]: Loaded 1174 recipes
+[11:57:03] [ServerMain/INFO]: Loaded 1271 advancements
+[11:57:04] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[11:57:04] [Server thread/INFO]: Loading properties
+[11:57:04] [Server thread/INFO]: This server is running Purpur version git-Purpur-2176 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 6b1ee98 on HEAD)
+[11:57:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:57:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:57:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[11:57:07] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[11:57:07] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[11:57:07] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[11:57:07] [Server thread/WARN]: [Pufferfish] Debug: Java: 21.0.5, test run: true
+[11:57:07] [Server thread/INFO]: Default game type: SURVIVAL
+[11:57:07] [Server thread/INFO]: Generating keypair
+[11:57:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:57:07] [Server thread/INFO]: Using default channel type
+[11:57:07] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:57:07] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:57:08] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-985;619867e
+[11:57:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3c4d07ea]
+[11:57:10] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[11:57:12] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:57:12] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[11:57:12] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[11:57:12] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[11:57:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[11:57:12] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+141-c7cc1b4
+[11:57:12] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.119
+[11:57:12] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[11:57:12] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.17
+[11:57:14] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.26
+[11:57:15] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[11:57:15] [Server thread/INFO]: [ItemJoin] Loading server plugin ItemJoin v6.1.1-RELEASE-b1048
+[11:57:15] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+141-c7cc1b4
+[11:57:15] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
+[11:57:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:57:15] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-985;619867e
+[11:57:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[11:57:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[11:57:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:57:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:57:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R3.PaperweightFaweAdapter as the Bukkit adapter
+[11:57:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[11:57:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[11:57:18] [Server thread/INFO]:         __    
+[11:57:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[11:57:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[11:57:18] [Server thread/INFO]: 
+[11:57:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:57:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:57:19] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
+You are running build 985, the latest version is build 986.
+Update at https://www.spigotmc.org/resources/13932/
+[11:57:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:57:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:57:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2326ms)
+[11:57:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[11:57:20] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[11:57:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[11:57:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:57:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
+[11:57:22] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[11:57:22] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[11:57:22] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:57:22] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[11:57:22] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[11:57:22] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[11:57:22] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[11:57:22] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:57:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:57:22] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.17
+[11:57:23] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.60s)
+[11:57:23] [Server thread/INFO]:           __             _       
+[11:57:23] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[11:57:23] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[11:57:23] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[11:57:23] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[11:57:23] [Server thread/INFO]:                   |___/            
+[11:57:23] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.17 DEVELOPMENT
+[11:57:23] [Server thread/INFO]:  
+[11:57:24] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.26
+[11:57:25] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.52s)
+[11:57:25] [Server thread/INFO]:           _         _   _   ___       _   
+[11:57:25] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[11:57:25] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[11:57:25] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[11:57:25] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[11:57:25] [Server thread/INFO]:                                          
+[11:57:25] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.26
+[11:57:25] [Server thread/INFO]: 
+[11:57:26] [Folia Async Scheduler Thread #4/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[11:57:26] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v6.1.1-RELEASE-b1048
+[11:57:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:57:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:57:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:57:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:57:26] [Server thread/INFO]: Preparing level "world"
+[11:57:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:57:27] [Server thread/INFO]: Time elapsed: 297 ms
+[11:57:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:57:27] [Server thread/INFO]: Time elapsed: 77 ms
+[11:57:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:57:27] [Server thread/INFO]: Time elapsed: 66 ms
+[11:57:27] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:57:28] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:57:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:57:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:57:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:57:28] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[11:57:28] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[11:57:28] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[11:57:29] [Server thread/INFO]: Preparing start region for dimension minecraft:flatroom
+[11:57:30] [Server thread/INFO]: Time elapsed: 1406 ms
+[11:57:30] [Server thread/INFO]: [WorldGuard] (flatroom) TNT ignition is PERMITTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] (flatroom) Lighters are PERMITTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] (flatroom) Lava fire is PERMITTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] (flatroom) Fire spread is UNRESTRICTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'flatroom'
+[11:57:30] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[11:57:30] [Server thread/INFO]: Time elapsed: 55 ms
+[11:57:30] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[11:57:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[11:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:void
+[11:57:31] [Server thread/INFO]: Time elapsed: 44 ms
+[11:57:31] [Server thread/INFO]: [WorldGuard] (void) TNT ignition is PERMITTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] (void) Lighters are PERMITTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] (void) Lava fire is PERMITTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] (void) Fire spread is UNRESTRICTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'void'
+[11:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:world119
+[11:57:31] [Server thread/INFO]: Time elapsed: 46 ms
+[11:57:31] [Server thread/INFO]: [WorldGuard] (world119) TNT ignition is PERMITTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] (world119) Lighters are PERMITTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] (world119) Lava fire is PERMITTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] (world119) Fire spread is UNRESTRICTED.
+[11:57:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world119'
+[11:57:31] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
+[11:57:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[11:57:31] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[11:57:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+141-c7cc1b4
+[11:57:31] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:57:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:57:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:57:32] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[11:57:32] [Server thread/INFO]: [Essentials] Using locale en_US
+[11:57:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:57:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:57:33] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:57:33] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:57:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:57:33] [Server thread/INFO]: [spark] Enabling spark v1.10.119
+[11:57:34] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[11:57:34] [Server thread/INFO]: [spark] Starting background profiler...
+[11:57:34] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:57:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.119]
+[11:57:34] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[11:57:34] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[11:57:34] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+141-c7cc1b4
+[11:57:34] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[11:57:34] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[11:57:34] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[11:57:35] [Server thread/INFO]: [hsqldb.db.HSQLDB935DF67E0B.ENGINE] checkpointClose start
+[11:57:35] [Server thread/INFO]: [hsqldb.db.HSQLDB935DF67E0B.ENGINE] checkpointClose synched
+[11:57:35] [Server thread/INFO]: [hsqldb.db.HSQLDB935DF67E0B.ENGINE] checkpointClose script done
+[11:57:35] [Server thread/INFO]: [hsqldb.db.HSQLDB935DF67E0B.ENGINE] checkpointClose end
+[11:57:35] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[11:57:35] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[11:57:35] [Server thread/INFO]: 
+[11:57:35] [Server thread/INFO]:  
+[11:57:35] [Server thread/INFO]: []=====[Enabling AdvancedBan]=====[]
+[11:57:35] [Server thread/INFO]: | Information:
+[11:57:35] [Server thread/INFO]: |   Name: AdvancedBan
+[11:57:35] [Server thread/INFO]: |   Developer: Leoko
+[11:57:35] [Server thread/INFO]: |   Version: 2.3.0
+[11:57:35] [Server thread/INFO]: |   Storage: HSQLDB (local)
+[11:57:35] [Server thread/INFO]: | Support:
+[11:57:35] [Server thread/INFO]: |   Github: https://github.com/DevLeoko/AdvancedBan/issues
+[11:57:35] [Server thread/INFO]: |   Discord: https://discord.gg/ycDG6rS
+[11:57:35] [Server thread/INFO]: | Twitter: @LeokoGar
+[11:57:35] [Server thread/INFO]: | Update:
+[11:57:35] [Server thread/INFO]: |   You have the newest version
+[11:57:35] [Server thread/INFO]: []================================[]
+[11:57:35] [Server thread/INFO]:  
+[11:57:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:57:36] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:57:36] [Server thread/INFO]: Running delayed init tasks
+[11:57:36] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[11:57:36] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[11:57:36] [Craft Scheduler Thread - 6 - ItemJoin/INFO]: [ItemJoin] Hooked into { Multiverse-Core, WorldGuard, PlaceholderAPI, ProtocolLib, SkinsRestorer }
+[11:57:36] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:57:37] [Server thread/INFO]: [ItemJoin] 24/24 Custom item(s) loaded!
+[11:57:37] [Server thread/INFO]: Done (33.177s)! For help, type "help"
+[11:57:37] [Craft Scheduler Thread - 6 - ItemJoin/INFO]: [ItemJoin] Checking for updates...
+[11:57:37] [Craft Scheduler Thread - 6 - ItemJoin/INFO]: [ItemJoin] You are up to date!
+[11:57:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2619ms or 52 ticks behind
+[11:57:40] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.3.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/
+[11:57:42] [pool-21-thread-4/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 44, threads = 6, took 16.98s)
+[11:59:37] [User Authenticator #0/INFO]: UUID of player Terbang is 62020be1-f713-36be-a088-d7eaf7165aef
+[11:59:39] [Server thread/INFO]: Terbang[/127.0.0.1:50255] logged in with entity id 393 at ([void]-72.43628816933087, 106.0, 15.45754986684683)
+[11:59:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2630ms or 52 ticks behind
+[11:59:46] [Craft Scheduler Thread - 29 - ItemJoin/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:59:56] [Folia Async Scheduler Thread #7/INFO]: [nLogin] The user Terbang has successfully logged in.
+[12:02:43] [Folia Async Scheduler Thread #9/INFO]: ✔ You have successfully unregistered the player Terbang.
+[12:02:43] [Folia Async Scheduler Thread #9/INFO]: 
+[12:02:43] [Folia Async Scheduler Thread #9/INFO]: ⚑ This operation took 25.05ms.
+[12:02:43] [Server thread/INFO]: Terbang lost connection: You have been successfully unregistered.
+[12:02:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2526ms or 50 ticks behind
+[12:02:46] [User Authenticator #1/INFO]: UUID of player Terbang is 62020be1-f713-36be-a088-d7eaf7165aef
+[12:02:47] [Server thread/INFO]: Terbang[/127.0.0.1:50446] logged in with entity id 400 at ([void]-70.54932800446038, 105.0, 12.55457743804607)
+[12:02:49] [Folia Async Scheduler Thread #7/INFO]: ✔ You have successfully unregistered the player iloveher.
+[12:02:49] [Folia Async Scheduler Thread #7/INFO]: 
+[12:02:49] [Folia Async Scheduler Thread #7/INFO]: ⚑ This operation took 15.34ms.
+[12:03:00] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Terbang has successfully registered.
+[12:03:43] [User Authenticator #1/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:03:43] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50477] logged in with entity id 402 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:03:44] [Folia Async Scheduler Thread #7/INFO]: [nLogin] The user iloveher has successfully registered.
+[12:04:06] [Server thread/INFO]: iloveher lost connection: Disconnected
+[12:04:18] [User Authenticator #1/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:04:19] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50504] logged in with entity id 403 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:04:20] [Server thread/INFO]: iloveher lost connection: You entered the incorrect password.
+[12:04:25] [User Authenticator #1/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:04:25] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50508] logged in with entity id 405 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:04:26] [Server thread/INFO]: iloveher lost connection: You entered the incorrect password.
+[12:05:35] [User Authenticator #2/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:05:35] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50549] logged in with entity id 408 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:05:37] [Server thread/INFO]: iloveher lost connection: You entered the incorrect password.
+[12:05:42] [User Authenticator #2/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:05:42] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50554] logged in with entity id 409 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:05:43] [Server thread/INFO]: iloveher lost connection: Disconnected
+[12:06:59] [User Authenticator #3/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:06:59] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50597] logged in with entity id 414 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:07:00] [Folia Async Scheduler Thread #11/INFO]: [nLogin] The user iloveher has successfully logged in.
+[12:07:19] [Server thread/INFO]: iloveher lost connection: Disconnected
+[12:10:23] [User Authenticator #4/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:10:23] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50752] logged in with entity id 421 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:10:38] [Server thread/INFO]: iloveher lost connection: Disconnected
+[12:14:12] [User Authenticator #5/INFO]: UUID of player iloveher is a2d48c14-3224-3450-8378-a2b784910c53
+[12:14:12] [Server thread/INFO]: iloveher[/[0:0:0:0:0:0:0:1]:50896] logged in with entity id 422 at ([void]-71.28875224876394, 106.0, 14.876091474433006)
+[12:14:13] [Folia Async Scheduler Thread #13/INFO]: [nLogin] The user iloveher has successfully logged in.
+[12:14:21] [Server thread/INFO]: iloveher lost connection: Disconnected
+[12:14:43] [Server thread/INFO]: Terbang lost connection: Disconnected

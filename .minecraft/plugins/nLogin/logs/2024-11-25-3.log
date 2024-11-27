@@ -1,0 +1,18 @@
+[2024/11/25 14:11:32]: §9          __             _       
+[2024/11/25 14:11:32]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/11/25 14:11:32]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/11/25 14:11:32]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/11/25 14:11:32]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/11/25 14:11:32]: §9                  |___/            
+[2024/11/25 14:11:32]: §9 By: www.nickuc.com - V 10.4.17 DEVELOPMENT
+[2024/11/25 14:11:32]: §9 
+[2024/11/25 14:11:33]: §3[nLogin] [DEBUG] All settings were loaded in 307 ms.
+[2024/11/25 14:11:33]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/11/25 14:11:33]: §3[nLogin] [DEBUG] All plugin messages were loaded in 116 ms (languageByClient=false).
+[2024/11/25 14:11:33]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2024/11/25 14:11:33]: §3[nLogin] [DEBUG] Loading database...
+[2024/11/25 14:11:33]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/11/25 14:12:10]: §3[nLogin] [DEBUG] Quiely ignoring the ProtocolLib exception (The method getUniqueId is not supported for temporary players.)
+[2024/11/25 14:12:24]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Terbang', `unique_id` = 62020be1f71336bea088d7eaf7165aef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$K29HYC9eIeA/IsT06LW3seecXPEi0mspDY4/eslEKvyJ7PWOgwZ/y', `last_ip` = '127.0.0.1', `creation_date` = 2024-11-25 13:54:26.117, `last_seen` = 2024-11-25 14:12:23.905, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/11/25 14:12:24]: [nLogin] The user Terbang has successfully logged in.
+[2024/11/25 14:32:18]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Terbang', `unique_id` = 62020be1f71336bea088d7eaf7165aef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$K29HYC9eIeA/IsT06LW3seecXPEi0mspDY4/eslEKvyJ7PWOgwZ/y', `last_ip` = '127.0.0.1', `creation_date` = 2024-11-25 13:54:26.117, `last_seen` = 2024-11-25 14:32:17.874, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
