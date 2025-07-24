@@ -22,7 +22,7 @@ const getProvider = ip => {
 /* const f = new Map([
     ["ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴠᴏᴛᴇ ᴜɴᴛᴜᴋ ᴋᴀᴍɪ! ᴋᴀᴍᴜ ᴍᴇᴍɪʟɪᴋɪ 0 ᴠᴏᴛᴇ.", `/register M7hqBKkTZNA5cMJq`], // register auth cornezz
     ["[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!",
-    ["[»] Hi on Minecraft Server Network! Here you have useful commands:", `/server survivalsf`],
+    ["[»] Hi on Minecraft Server Network! Here you have useful commands:", `/server survivalsf`], // jpremium auth default config
     ["Please register using /register <password>", `/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq`], // default easy auth
     ["Please register using /register <password>", `/register M7hqBKkTZNA5cMJq`], // default easy auth
     ["Please register using /register <password> <password again>", `/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq`], // default easy auth
@@ -32,13 +32,13 @@ const getProvider = ip => {
     ["[»] You are already registered!", '/server survivalsf'],
     ["Use the command /register <password> <password>.", "/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq "],
     ["Please, register to the server with the command: /register <password> <ConfirmPassword>", '/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq'], // Authme register default config msg
-    ["Successfully logged in.", '/server survival'], // Syahnur07 // Myu_SyaDyr
+    ["Successfully logged in.", '/server survival'], 
     ["ᴠᴏᴛᴇ ┃ You have 4 to vote on still!", '/register blackyyy123'],
     ["[»] You are a premium player!", '/server oneblock'],
-    ["Please register with /register <password> <password>", '/register n n'],
-    ["*Kamu sedang di Limbo* ketik /hub untuk lanjut bermain!", '/register n n'],
-    ["* You are currently at Limbo* type /hub to continue playing!", '/register n n'],
-    ["/register <password> <password>", '/register blackyyy123 blackyyy123']
+    ["Please register with /register <password> <password>", '/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq'],
+    ["*Kamu sedang di Limbo* ketik /hub untuk lanjut bermain!", '/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq'],
+    ["* You are currently at Limbo* type /hub to continue playing!", '/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq'],
+    ["/register <password> <password>", '/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq']
 ]); */
 
 
@@ -69,10 +69,11 @@ module.exports = {
                 global.activeBot = null;
                 return;
             } else {
-                return message.channel.send('```diff\n- Bot tidak sedang terhubung ke server manapun```');
+                return message.channel.send('```diff\n- Bot not connected to any server. (IDLE)```');
             }
         }
-         if (!args[0]) return message.channel.send('Mohon masukkan alamat server!');
+        
+        if (!args[0]) return message.channel.send('```diff\n- Enter the server IP to proceed.```');
         
         let username;
         let version = '1.20.4';
@@ -123,7 +124,7 @@ module.exports = {
                 const sentMessage = await message.reply(discordMessage(serverInfo, 'No players online'));
 
             
-                // Tambahkan event listener untuk chat
+                // Event listener || ingame chat.
                 bot.on('messagestr', (message) => {
                     console.log(`[Minecraft Chat] ${message}`);
                     for (let [key, value] of registerList.entries()) {
@@ -185,7 +186,7 @@ module.exports = {
                 } catch {
                     reason = longReason;
                 }
-                // const cleanReason = JSON.parse(reason)?.extra?.[0]?.text || reason;
+                //  const cleanReason = JSON.parse(reason)?.extra?.[0]?.text || reason;
                 message.reply([
                     `\`\`\`diff\n- Failed to jump into the server ${args[0]}:${port}\`\`\``,
                     `\`\`\`py\n@ reason: ${reason}\n@ Bot will reconnect in 5 seconds\`\`\``,
