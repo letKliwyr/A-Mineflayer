@@ -21,7 +21,7 @@ const getProvider = ip => {
 
 /* const f = new Map([
     ["ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴠᴏᴛᴇ ᴜɴᴛᴜᴋ ᴋᴀᴍɪ! ᴋᴀᴍᴜ ᴍᴇᴍɪʟɪᴋɪ 0 ᴠᴏᴛᴇ.", `/register M7hqBKkTZNA5cMJq`], // register auth cornezz
-    ["[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!", console.log("jpremium login detected")],
+    ["[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!",
     ["[»] Hi on Minecraft Server Network! Here you have useful commands:", `/server survivalsf`],
     ["Please register using /register <password>", `/register M7hqBKkTZNA5cMJq M7hqBKkTZNA5cMJq`], // default easy auth
     ["Please register using /register <password>", `/register M7hqBKkTZNA5cMJq`], // default easy auth
